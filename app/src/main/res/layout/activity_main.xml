@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main"
+>
+
+        <Button
+            android:id="@+id/createProfileButton"
+            style="@style/buttom_custom"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/create_text"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="204dp"
+            android:layout_marginBottom="306dp"
+            android:background="@drawable/bg_button"
+            android:elevation="6dp"
+            android:text="Создать профиль"
+            android:textColor="@color/white"
+
+            android:textStyle="bold"
+            android:translationZ="40dp" />
+
+        <Button
+            android:id="@+id/startGameButton"
+            style="@style/buttom_custom"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="349dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="244dp"
+            android:background="@drawable/bg_button"
+            android:elevation="6dp"
+            android:text="Начать игру"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:translationZ="40dp" />
+
+        <Button
+            android:id="@+id/showResultButton"
+            style="@style/buttom_custom"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="414dp"
+            android:layout_marginEnd="226dp"
+            android:layout_marginBottom="73dp"
+            android:background="@drawable/bg_button"
+            android:elevation="6dp"
+            android:text="Показать результат"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:translationZ="40dp" />
+
+        <ImageView
+            android:id="@+id/white_line"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="615dp"
+            app:srcCompat="@drawable/ff3" />
+
+        <ImageView
+            android:id="@+id/mascot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="-41dp"
+            app:srcCompat="@drawable/mascot1" />
+
+
+        <TextView
+            android:id="@+id/start_text"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="295dp"
+
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:background="@color/white"
+            android:text="@string/two"/>
+
+        <TextView
+            android:id="@+id/result_text"
+            android:layout_width="155dp"
+            android:layout_height="102dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="221dp"
+            android:layout_marginBottom="122dp"
+            style="@style/text_custom"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:background="@color/white"
+            android:text="@string/three"/>
+
+        <ImageView
+            android:id="@+id/line1"
+            android:layout_width="102dp"
+            android:layout_height="145dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="150dp"
+            android:layout_marginBottom="294dp"
+            app:srcCompat="@drawable/line" />
+
+        <ImageView
+            android:id="@+id/line2"
+            android:layout_width="89dp"
+            android:layout_height="122dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="149dp"
+            android:layout_marginBottom="200dp"
+            android:rotation="180"
+            app:srcCompat="@drawable/line2" />
+
+        <ImageView
+            android:id="@+id/line3"
+            android:layout_width="102dp"
+            android:layout_height="145dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="138dp"
+            android:layout_marginBottom="391dp"
+            android:rotation="180"
+            app:srcCompat="@drawable/line2" />
+
+        <TextView
+            android:id="@+id/name_text"
+            android:layout_width="150dp"
+            android:layout_height="91dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="469dp"
+            style="@style/text_custom"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:background="@color/white"
+            android:text="@string/four"/>
+
+        <TextView
+            android:id="@+id/create_text"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="198dp"
+            android:layout_marginBottom="356dp"
+            style="@style/text_custom"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:background="@color/white"
+            android:text="@string/one"/>
+
+
+    </RelativeLayout>
+</layout>

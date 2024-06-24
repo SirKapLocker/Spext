@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create">Создать профиль</string>
+    <string name="start">Начать игру</string>
+    <string name="show">Показать результат</string>
+</resources>

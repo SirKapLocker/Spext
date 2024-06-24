@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main">
+
+    <TextView android:id="@+id/textTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"/>
+
+
+    <EditText
+        android:id="@+id/inputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:hint="Печатайте текст здесь" />
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textTextView"
+        app:srcCompat="@drawable/maskot2" />
+
+    <FrameLayout
+        android:id = "@+id/idFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below= "@id/inputEditText"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="239dp"
+            android:layout_height="194dp"
+            app:srcCompat="@drawable/ff3"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/finishButton"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button"
+            android:elevation="6dp"
+            android:text="Завершить"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:translationZ="40dp" />
+    </FrameLayout>
+
+</RelativeLayout>

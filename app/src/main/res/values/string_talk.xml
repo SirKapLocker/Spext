@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="one">Это кнопка для создания профиля</string>
+    <string name="two">Это, чтобы начать игру</string>
+    <string name="three">А это, чтобы посмотреть свои результаты</string>
+    <string name="four">Я Тэкс, я хочу помочь тебе разобраться!</string>
+    <string name="five">Надеюсь, ты не против, если я усну у твоей фотографии?</string>
+    <string name="six">Неплой результат! Жду твоих следующий свершений!</string>
+
+
+</resources>

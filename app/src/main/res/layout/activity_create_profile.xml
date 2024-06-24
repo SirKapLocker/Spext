@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main">
+
+    <ImageView
+        android:id="@+id/profileImageView"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/nicknameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileImageView"
+        android:hint="Введите никнейм"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/countryEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nicknameEditText"
+        android:hint="Введите страну проживания"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/takePhotoButton"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/countryEditText"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/bg_button"
+        android:elevation="6dp"
+        android:text="Сделать фото"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:translationZ="40dp" />
+
+    <Button
+        android:id="@+id/takeCountryAuto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/countryEditText"
+        android:layout_marginLeft="123dp"
+        android:layout_marginTop="19dp"
+        android:layout_toRightOf="@id/takePhotoButton"
+        android:background="@drawable/bg_button"
+        android:elevation="6dp"
+        android:text="Определить страну"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:translationZ="40dp" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сохранить"
+        android:layout_below="@id/takeCountryAuto"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_button"
+        android:elevation="6dp"
+        android:translationZ="40dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="292dp"
+        android:layout_height="338dp"
+        android:layout_below="@id/takePhotoButton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="4dp"
+        app:srcCompat="@drawable/mascot4" />
+
+    <TextView
+        android:id="@+id/name_text"
+        style="@style/text_custom"
+        android:layout_width="161dp"
+        android:layout_height="107dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="203dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/five"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="114dp"
+        android:layout_height="99dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="261dp"
+        app:srcCompat="@drawable/mascot3" />
+
+
+</RelativeLayout>
